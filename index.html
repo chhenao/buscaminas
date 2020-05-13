@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Site made with Mobirise Website Builder v4.9.1, https://mobirise.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="buscaminas mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="icon" type="image/png" href="css/mina.png" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <meta name="description" content="">
+    <title>Bucaminas</title>
+     
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+        .center{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        } 
+      </style>
+
+</head>
+
+<body>
+    <section class="section"> 
+
+        <div class="container center" id="caja">
+            <div class="column is-mobile is-half">
+                <h1 class="title center">BIENVENIDO A BUSCAMINAS</h1>
+                <h3 class="subtitle center">
+                    Escoge el nivel y pulsa en la carita amarilla para empezar
+                </h3>
+
+
+                <div id="mapa">
+                   <form class="form">
+                        <b>Principiante</b>&nbsp
+                        <input type="radio" alto="6" ancho="8" minas="10" name="opcion" value="principiante">&nbsp|
+                        <b>Experto</b>&nbsp
+                        <input type="radio" alto="12" ancho="10" minas="30" name="opcion" value="intermedio">&nbsp|
+                        <!--  <b>Experto</b>&nbsp<input type="radio"  alto="16" ancho="31" minas="60"  name="opcion" value="Experto"> -->
+                        <input type="button" value="" id="select">
+                        
+                    </form> 
+
+                    <h1 class="title" id='contador'><h1>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section> 
+     
+    <script type="text/javascript" src="script/buscaminas.js"></script>
+
+
+
+</body>
+
+</html>

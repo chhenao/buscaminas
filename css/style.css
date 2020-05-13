@@ -1,0 +1,55 @@
+
+#select {
+    background-image: url(facesmile.gif);
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 9px;
+}
+
+#mapa{
+box-shadow: 2px 2px 56px;
+    position: relative;
+    left: -2px;
+    min-width: 10%;
+    padding-right: 15px;padding-left: 30px;padding-bottom: 4%;
+    text-align: center;
+    border-radius: 18px;
+    
+}
+#contador{
+    box-shadow: 1px 0px 9px #3F3F65 inset;
+    color: red;
+    font-size: 15px;
+    border: inset gray;
+    height: 21px;
+    padding: 3px;
+    width: 30px;
+    background-color: white;
+}
+   /* #tabla td{
+    
+         
+        padding: 20px;
+       
+        
+}
+#tabla{
+box-shadow: 2px 4px 36px #636384;
+border: ridge #8C8C9D 4px;
+border-collapse: collapse;
+ 
+}/*
+
+#caja{
+border: ridge grey 3px;
+position: absolute;
+left: 15%;
+min-width: 26%;
+padding: 32px;
+border-radius: 11px;
+background-color: #D1D1EA;
+box-shadow: 2px 14px 29px;
+}*/
+
+ 
